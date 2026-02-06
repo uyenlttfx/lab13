@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("images/image1.jpeg");
+  width: 100%;
+  height: auto;
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("images/image2.jpeg");
+  width: 100%;
+  height: auto;
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("images/image03.jpeg");
+  width: 100%;
+  height: auto;
+}
+.carousel-item {
+  height: 500px;
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel-caption {
+  color: #fff;
+  background-color: rgba(3, 26, 33, 0.5);
+}
